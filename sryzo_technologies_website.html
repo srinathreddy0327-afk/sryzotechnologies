@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="SRYZO Technologies — exploring software, computing and hardware innovation.">
+  <meta name="theme-color" content="#080d18">
+  <title>SRYZO Technologies | Build. Innovate. Advance.</title>
+  <style>
+    :root{--bg:#080d18;--panel:#101a2b;--blue:#28a9ff;--cyan:#69d5ff;--text:#f4f8ff;--muted:#aab8ca;--line:#24344c}
+    *{box-sizing:border-box}
+    html{scroll-behavior:smooth}
+    body{margin:0;background:var(--bg);color:var(--text);font-family:Inter,Segoe UI,Arial,sans-serif;line-height:1.6}
+    a{color:inherit;text-decoration:none}
+    .wrap{width:min(1100px,calc(100% - 40px));margin:auto}
+    header{position:sticky;top:0;z-index:5;background:rgba(8,13,24,.88);backdrop-filter:blur(14px);border-bottom:1px solid rgba(100,150,210,.15)}
+    nav{height:72px;display:flex;align-items:center;justify-content:space-between}
+    .brand{font-weight:900;letter-spacing:.16em;font-size:1.12rem}
+    .brand span{color:var(--blue)}
+    .navlinks{display:flex;gap:26px;color:var(--muted);font-size:.92rem}
+    .navlinks a:hover{color:var(--cyan)}
+    .hero{padding:105px 0 92px;position:relative;overflow:hidden}
+    .hero:before{content:"";position:absolute;width:520px;height:520px;border-radius:50%;right:-120px;top:-180px;background:radial-gradient(circle,rgba(25,145,255,.22),transparent 68%);pointer-events:none}
+    .eyebrow{color:var(--cyan);font-size:.78rem;letter-spacing:.24em;text-transform:uppercase;font-weight:700}
+    h1{font-size:clamp(2.8rem,7vw,5.7rem);line-height:1.02;letter-spacing:-.055em;margin:18px 0}
+    h1 span{color:var(--blue)}
+    .lead{max-width:650px;color:var(--muted);font-size:1.13rem}
+    .actions{display:flex;gap:14px;flex-wrap:wrap;margin-top:32px}
+    .btn{padding:12px 20px;border-radius:8px;font-weight:700;border:1px solid var(--line);display:inline-block}
+    .primary{background:linear-gradient(110deg,#1688ee,#32c5ff);color:#04101e;border:0}
+    .secondary:hover{border-color:var(--blue)}
+    .section{padding:76px 0;border-top:1px solid rgba(100,150,210,.13)}
+    .section h2{font-size:clamp(1.8rem,4vw,2.7rem);line-height:1.15;margin:10px 0 14px}
+    .sub{color:var(--muted);max-width:690px}
+    .grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin-top:30px}
+    .card{background:linear-gradient(150deg,rgba(19,34,55,.95),rgba(12,20,34,.95));border:1px solid var(--line);border-radius:14px;padding:24px}
+    .num{color:var(--blue);font-size:.8rem;letter-spacing:.14em;font-weight:800}
+    .card h3{margin:10px 0 8px;font-size:1.15rem}
+    .card p{margin:0;color:var(--muted);font-size:.95rem}
+    .mission{display:grid;grid-template-columns:1.2fr .8fr;gap:30px;align-items:center}
+    .statement{border-left:3px solid var(--blue);padding:20px 24px;background:rgba(25,145,255,.07);border-radius:0 12px 12px 0;color:#dceaff;font-size:1.12rem}
+    .pill{display:inline-block;border:1px solid #24517a;color:#9bdcff;border-radius:99px;padding:7px 12px;font-size:.82rem;margin:5px 5px 0 0}
+    footer{padding:28px 0;color:var(--muted);font-size:.88rem;border-top:1px solid rgba(100,150,210,.13)}
+    .foot{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap}
+    @media(max-width:760px){.navlinks{gap:13px;font-size:.82rem}.grid{grid-template-columns:1fr}.mission{grid-template-columns:1fr}.hero{padding:78px 0 65px}}
+    @media(max-width:430px){.navlinks a:nth-child(2){display:none}.wrap{width:min(100% - 28px,1100px)}}
+  </style>
+</head>
+<body>
+<header>
+  <nav class="wrap">
+    <a class="brand" href="#top">SRYZO<span>.</span></a>
+    <div class="navlinks">
+      <a href="#about">About</a><a href="#focus">Focus</a><a href="#vision">Vision</a>
+    </div>
+  </nav>
+</header>
+<main id="top">
+  <section class="hero wrap">
+    <div class="eyebrow">An independent technology initiative</div>
+    <h1>BUILD.<br><span>INNOVATE.</span><br>ADVANCE.</h1>
+    <p class="lead">Exploring the ideas and engineering behind tomorrow's technology — starting with software, computing and hardware fundamentals.</p>
+    <div class="actions">
+      <a class="btn primary" href="#about">Discover SRYZO</a>
+      <a class="btn secondary" href="#focus">Explore our focus</a>
+    </div>
+  </section>
+
+  <section class="section" id="about">
+    <div class="wrap mission">
+      <div>
+        <div class="eyebrow">Who we are</div>
+        <h2>A journey built on curiosity.</h2>
+        <p class="sub">SRYZO Technologies is an early-stage technology initiative focused on learning, experimentation and building practical projects. We are starting small, developing strong foundations and working towards bigger ideas in computing and engineering.</p>
+      </div>
+      <div class="statement">“Big technology starts with a question, a willingness to learn and the discipline to build.”</div>
+    </div>
+  </section>
+
+  <section class="section" id="focus">
+    <div class="wrap">
+      <div class="eyebrow">What we're exploring</div>
+      <h2>Our areas of focus</h2>
+      <p class="sub">These are our learning and development directions — not claims of products or services already launched.</p>
+      <div class="grid">
+        <article class="card"><div class="num">01 / SOFTWARE</div><h3>Software &amp; Development</h3><p>Programming, applications, tools and digital products that solve real problems.</p></article>
+        <article class="card"><div class="num">02 / COMPUTING</div><h3>Computer Engineering</h3><p>Understanding how computers work, from architecture and operating systems to performance.</p></article>
+        <article class="card"><div class="num">03 / HARDWARE</div><h3>Hardware &amp; Silicon Research</h3><p>Learning digital logic, electronics and the foundations of processor and GPU design.</p></article>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="vision">
+    <div class="wrap">
+      <div class="eyebrow">Our direction</div>
+      <h2>Start with fundamentals. Build with purpose.</h2>
+      <p class="sub">Our long-term ambition is to grow our knowledge and capabilities in advanced computing and hardware engineering. The first milestone is simple: learn, create, test and improve — one project at a time.</p>
+      <div style="margin-top:22px">
+        <span class="pill">Learn continuously</span><span class="pill">Build practically</span><span class="pill">Innovate responsibly</span>
+      </div>
+    </div>
+  </section>
+</main>
+<footer>
+  <div class="wrap foot">
+    <div><strong style="color:#f4f8ff;letter-spacing:.12em">SRYZO TECHNOLOGIES</strong><br>BUILD • INNOVATE • ADVANCE</div>
+    <div>© <span id="year"></span> SRYZO Technologies. All rights reserved.</div>
+  </div>
+</footer>
+<script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>
